@@ -1,0 +1,1 @@
+export { Profesor } from "./profesor.entity";
