@@ -14,7 +14,7 @@ export const DatabaseProvider: DynamicModule = TypeOrmModule.forRootAsync({
         const dbConfig = {
             type: 'postgres',
             host: config.get("DB_HOST"),
-            port: +config.get("DB_PORT"),
+            port: config.get("DB_PORT"),
             username: config.get("DB_USER"),
             password: config.get("DB_PASSWORD"),
             database: config.get("DB_NAME"),

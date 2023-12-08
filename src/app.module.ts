@@ -5,6 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ProfesorsModule } from './modules/profesor/profesor.module';
 import { ArticulosModule } from './modules/articulo/articulo.module';
 import { EventosModule } from "./modules/evento/evento.module";
+import { LibrosModule } from "./modules/libro/libro.module";
 import { PremiosModule } from "./modules/premio/premio.module";
 import { ProyectosModule } from "./modules/proyecto/proyecto.module";
 import { TutoriasModule } from "./modules/tutoria/tutoria.module"
@@ -16,7 +17,9 @@ import { DatabaseModule } from './database/database.module';
     ProfesorsModule,
     ArticulosModule,
     EventosModule,
+    LibrosModule,
     PremiosModule,
+    ProfesorsModule,
     ProyectosModule,
     TutoriasModule,
     DatabaseModule

@@ -4,7 +4,7 @@ import { Tutoria } from './tutoria.entity';
 
 import { TutoriasController } from './tutoria.controller';
 import { TutoriasService } from './tutoria.service';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Module({
     imports: [TypeOrmModule.forFeature([Tutoria, Profesor])],

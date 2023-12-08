@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 import { Articulo } from './articulo.entity';
 import { CreateArticuloDto, UpdateArticuloDto, PaginationQueryDto } from './dto';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Injectable()
 export class ArticulosService {

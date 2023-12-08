@@ -4,7 +4,7 @@ import { Articulo } from './articulo.entity';
 
 import { ArticulosController } from './articulo.controller';
 import { ArticulosService } from './articulo.service';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Module({
     imports: [TypeOrmModule.forFeature([Articulo, Profesor])],

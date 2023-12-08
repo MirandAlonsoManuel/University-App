@@ -5,12 +5,12 @@ import {
     PrimaryGeneratedColumn,
 } from "typeorm";
 
-import { Proyecto } from "../../proyecto/proyecto.entity";
-import { Premio } from "../../premio/premio.entity";
-import { Libro } from "../../libro/libro.entity";
-import { Articulo } from "../../articulo/articulo.entity";
-import { Evento } from "../../evento/evento.entity";
-import { Tutoria } from "../../tutoria/tutoria.entity";
+import { Proyecto } from "../proyecto/proyecto.entity";
+import { Premio } from "../premio/premio.entity";
+import { Libro } from "../libro/libro.entity";
+import { Articulo } from "../articulo/articulo.entity";
+import { Evento } from "../evento/evento.entity";
+import { Tutoria } from "../tutoria/tutoria.entity";
 
 @Entity()
 export class Profesor{

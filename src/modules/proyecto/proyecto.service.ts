@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 import { Proyecto } from './proyecto.entity';
 import { CreateProyectoDto, UpdateProyectoDto, PaginationQueryDto } from './dto';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Injectable()
 export class ProyectosService {

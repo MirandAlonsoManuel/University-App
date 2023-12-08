@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 import { Premio } from './premio.entity';
 import { CreatePremioDto, UpdatePremioDto, PaginationQueryDto } from './dto';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Injectable()
 export class PremiosService {

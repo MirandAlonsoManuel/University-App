@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 import { Tutoria } from './tutoria.entity';
 import { CreateTutoriaDto, UpdateTutoriaDto, PaginationQueryDto } from './dto';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Injectable()
 export class TutoriasService {

@@ -4,7 +4,7 @@ import { Premio } from './premio.entity';
 
 import { PremiosController } from './premio.controller';
 import { PremiosService } from './premio.service';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Module({
     imports: [TypeOrmModule.forFeature([Premio, Profesor])],

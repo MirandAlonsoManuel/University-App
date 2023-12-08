@@ -1,6 +1,6 @@
 import { Column, Entity, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from "typeorm";
 
-import { Profesor } from "../profesor/entities/profesor.entity";
+import { Profesor } from "../profesor/profesor.entity";
 
 @Entity()
 export class Premio{

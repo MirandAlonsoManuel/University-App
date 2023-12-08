@@ -1,6 +1,6 @@
 import { IsObject, IsString, IsBoolean } from "class-validator";
 
-import { Profesor } from "src/modules/profesor/entities";
+import { Profesor } from "src/modules/profesor/profesor.entity";
 
 export class CreateTutoriaDto {
     @IsString()

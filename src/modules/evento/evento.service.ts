@@ -4,7 +4,7 @@ import { Repository } from 'typeorm';
 
 import { Evento } from './evento.entity';
 import { CreateEventoDto, UpdateEventoDto, PaginationQueryDto } from './dto';
-import { Profesor } from '../profesor/entities';
+import { Profesor } from '../profesor/profesor.entity';
 
 @Injectable()
 export class EventosService {
